@@ -15,5 +15,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Run download and visuyalization R script
+      - name: Run download and visualization R script
         run: Rscript 01_daily_download_and_vis.R
